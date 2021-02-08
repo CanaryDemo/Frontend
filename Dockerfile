@@ -1,4 +1,4 @@
-FROM rustlang/rust:nightly AS builder
+FROM quay.io/mariusdieckmann/rust:latest AS builder
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
